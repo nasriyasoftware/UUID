@@ -1,7 +1,7 @@
 {
   "name": "nasriya-uuid",
   "version": "1.0.0",
-  "description": "[![N|Solid](https://static.wixstatic.com/media/72ffe6_da8d2142d49c42b29c96ba80c8a91a6c~mv2.png)](https://nasriya.net) # UUID. [![Static Badge](https://img.shields.io/badge/license-Free_(Restricted)-blue)](https://github.com/nasriyasoftware/UUID?tab=License-1-ov-file) ![Repository Size](https://img.shields.io/github/repo-size/nasriyasoftware/UUID.svg) ![Last Commit](https://img.shields.io/github/last-commit/nasriyasoftware/UUID.svg) [![Status](https://img.shields.io/badge/Status-Stable-green.svg)](link-to-your-status-page) ##### Visit us at [www.nasriya.net](https://nasriya.net). A lightweight package to generate `v5` UUID on the go. ___ Generating UUID is never easier.",
+  "description": "A lightweight package to generate v5 UUID on the go.",
   "main": "uuid.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
