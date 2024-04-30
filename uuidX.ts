@@ -37,7 +37,7 @@ module uuidX {
     * Generate a v4 UUID.
     * @returns {string} The generated v4 UUID.
     */
-    export function v4() {
+    export function v4(): string {
         const hexDigits = '0123456789abcdef';
         let uuid = '';
         for (let i = 0; i < 36; i++) {
