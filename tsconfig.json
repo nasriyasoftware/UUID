@@ -9,6 +9,6 @@
         "*.ts",
         "*.d.ts",
         "typings/*.d.ts"
-    ],
+, "@types/uuid.d.ts"    ],
     "exclude": ["node_modules"]
 }
