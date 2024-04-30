@@ -1,6 +1,6 @@
 [![N|Solid](https://static.wixstatic.com/media/72ffe6_da8d2142d49c42b29c96ba80c8a91a6c~mv2.png)](https://nasriya.net)
 # UUID.
-[![Static Badge](https://img.shields.io/badge/license-Free_(Restricted)-blue)](https://github.com/nasriyasoftware/UUID?tab=License-1-ov-file) ![Repository Size](https://img.shields.io/github/repo-size/nasriyasoftware/UUIDX.svg) ![Last Commit](https://img.shields.io/github/last-commit/nasriyasoftware/UUIDX.svg) [![Status](https://img.shields.io/badge/Status-Stable-green.svg)](link-to-your-status-page)
+[![Static Badge](https://img.shields.io/badge/license-Free_(Restricted)-blue)](https://github.com/nasriyasoftware/UUIDX?tab=License-1-ov-file) ![Repository Size](https://img.shields.io/github/repo-size/nasriyasoftware/UUIDX.svg) ![Last Commit](https://img.shields.io/github/last-commit/nasriyasoftware/UUIDX.svg) [![Status](https://img.shields.io/badge/Status-Stable-green.svg)](link-to-your-status-page)
 ##### Visit us at [www.nasriya.net](https://nasriya.net).
 A lightweight package to generate UUIDs on the go.
 Made with ❤️ in **Palestine** 🇵🇸
