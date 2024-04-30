@@ -8,11 +8,11 @@ Generating UUID is never easier.
 
 To generate a UUID, you must first `require` the package, then call the `generate()` method whenever you need it:
 
-```js
-const uuid = require('nasriya-uuid');
+```ts
+import uuidX = require('nasriya-uuid');
 
-const id_1 = uuid.generate();
-const id_2 = uuid.generate();
+const id_1 = uuidX.generate();
+const id_2 = uuidX.generate();
 
 console.log(`ID #1: ${id_1}.\nID #2: ${id_2}.`)
 ```

@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "d"
+    "url": "https://github.com/nasriyasoftware/UUID"
   },
   "author": "Nasriya Software, LLC.",
   "license": "ISC",
-  "dependencies": {
-    "uuid": "^9.0.1"
-  },
   "devDependencies": {
-    "@types/uuid": "^9.0.8"
+    "@types/node": "^20.12.7"
   }
 }
