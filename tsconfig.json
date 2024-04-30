@@ -8,7 +8,10 @@
     "include": [
         "*.ts",
         "*.d.ts",
-        "typings/*.d.ts"
-, "@types/uuid.d.ts"    ],
-    "exclude": ["node_modules"]
+        "typings/*.d.ts",
+        "@types/uuidX.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }

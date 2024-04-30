@@ -1,12 +1,9 @@
-declare module 'nasriya-uuid' {
-    export = uuidX;
-}
-
-export declare namespace uuidX {
+// Define the module and its functions
+declare module 'uuidX' {
     /**
      * Generate a `v5` UUID.
      * @param {string} version The version of the UUID. Default: `v5`.
      * @returns {string} The generated UUID
      */
-    function generate(version?: 'v5' | 'v4'): string;
+    export function generate(version?: 'v5' | 'v4'): string;
 }

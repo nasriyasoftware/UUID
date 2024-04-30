@@ -2,7 +2,7 @@
   "name": "nasriya-uuid",
   "version": "1.0.0",
   "description": "A lightweight package to generate v5 UUID on the go.",
-  "main": "uuid.ts",
+  "main": "uuidX.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
