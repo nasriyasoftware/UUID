@@ -4,7 +4,7 @@ import _uuid from 'uuid';
 module uuid {
     /**
      * Generate a `v5` UUID.
-     * @param {string} version The version of the UUID
+     * @param {string} version The version of the UUID. Default: `v5`.
      * @returns {string} The generated UUID
      */
     export function generate(version: 'v5' | 'v4' = 'v5'): string {
