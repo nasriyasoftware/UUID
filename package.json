@@ -1,14 +1,14 @@
 {
-  "name": "nasriya-uuid",
+  "name": "nasriya-uuidx",
   "version": "1.0.0",
-  "description": "A lightweight package to generate v5 UUID on the go.",
+  "description": "A lightweight package to generate UUIDs on the go.",
   "main": "uuidX.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nasriyasoftware/UUID"
+    "url": "https://github.com/nasriyasoftware/UUIDX"
   },
   "author": "Nasriya Software, LLC.",
   "license": "ISC",

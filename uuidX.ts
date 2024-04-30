@@ -38,8 +38,21 @@ module uuidX {
     * @returns {string} The generated v4 UUID.
     */
     export function v4() {
-        const randomHex = () => Math.floor(Math.random() * 0x10000).toString(16).padStart(4, '0');
-        return `${randomHex()}${randomHex()}-4${randomHex().substring(1, 3)}-8${randomHex().substring(1, 3)}-${randomHex()}-${randomHex()}${randomHex()}${randomHex()}`;
+        const hexDigits = '0123456789abcdef';
+        let uuid = '';
+        for (let i = 0; i < 36; i++) {
+            if (i === 14) {
+                uuid += '4'; // Version 4 UUID
+            } else if (i === 19) {
+                uuid += hexDigits.charAt(Math.floor(Math.random() * 4) + 8); // 8, 9, A, or B
+            } else {
+                uuid += hexDigits.charAt(Math.floor(Math.random() * 16));
+            }
+            if (i === 8 || i === 13 || i === 18 || i === 23) {
+                uuid += '-';
+            }
+        }
+        return uuid;
     }
 
     /**
@@ -55,7 +68,7 @@ module uuidX {
 
 // UTF-8 encode string to bytes
 function utf8Encode(str: string): number[] {
-    const utf8 = unescape(encodeURIComponent(str));
+    const utf8 = decodeURIComponent(encodeURIComponent(str));
     const bytes: number[] = [];
     for (let i = 0; i < utf8.length; i++) {
         bytes.push(utf8.charCodeAt(i));

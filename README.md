@@ -1,22 +1,43 @@
 [![N|Solid](https://static.wixstatic.com/media/72ffe6_da8d2142d49c42b29c96ba80c8a91a6c~mv2.png)](https://nasriya.net)
 # UUID.
-[![Static Badge](https://img.shields.io/badge/license-Free_(Restricted)-blue)](https://github.com/nasriyasoftware/UUID?tab=License-1-ov-file) ![Repository Size](https://img.shields.io/github/repo-size/nasriyasoftware/UUID.svg) ![Last Commit](https://img.shields.io/github/last-commit/nasriyasoftware/UUID.svg) [![Status](https://img.shields.io/badge/Status-Stable-green.svg)](link-to-your-status-page)
+[![Static Badge](https://img.shields.io/badge/license-Free_(Restricted)-blue)](https://github.com/nasriyasoftware/UUID?tab=License-1-ov-file) ![Repository Size](https://img.shields.io/github/repo-size/nasriyasoftware/UUIDX.svg) ![Last Commit](https://img.shields.io/github/last-commit/nasriyasoftware/UUIDX.svg) [![Status](https://img.shields.io/badge/Status-Stable-green.svg)](link-to-your-status-page)
 ##### Visit us at [www.nasriya.net](https://nasriya.net).
-A lightweight package to generate `v5` UUID on the go.
+A lightweight package to generate UUIDs on the go.
+Made with ❤️ in **Palestine** 🇵🇸
 ___
+
 Generating UUID is never easier.
 
-To generate a UUID, you must first `require` the package, then call the `generate()` method whenever you need it:
+### Installation
+```shell
+npm i nasriyasoftware/nasriya/uuidx
+```
+
+### Importing
+You can use **ES6** or **CommonJS** to generate IDs.
+
+Import with **ES6**:
+```ts
+import uuidx from 'nasriya-uuidx';
+```
+
+Import with **CommonJS**:
+```js
+const uuidx = require('nasriya-uuidx');
+```
+
+### Usage
+
+To generate a UUIDs, call the method of the needed version whenever you need it:
 
 ```ts
-import uuidX = require('nasriya-uuid');
+const idv4 = uuidX.v4();
+const idv5 = uuidX.v5('nasriya.net', uuidX.v4());
 
-const id_1 = uuidX.generate();
-const id_2 = uuidX.generate();
-
-console.log(`ID #1: ${id_1}.\nID #2: ${id_2}.`)
+console.log(idv4);  // ⇨ 'e2e05f173-8646e-47fff-9d21f-735250ce1e28'
+console.log(idv5);  // ⇨ 'b79020af-20af-5020afabee-8020afabee433-433465' 
 ```
 Thank you!
 ___
 ## License
-Please read the license from [here](https://github.com/nasriyasoftware/UUID?tab=License-1-ov-file).
+Please read the license from [here](https://github.com/nasriyasoftware/UUIDX?tab=License-1-ov-file).
