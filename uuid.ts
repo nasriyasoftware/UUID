@@ -1,15 +1,21 @@
-import uuid from 'uuid';
-/**
- * A class to generate UUID strings
- */
-class UUID {
+import _uuid from 'uuid';
+
+/**A module to generate UUIDs */
+module uuid {
     /**
      * Generate a `v5` UUID.
+     * @param {string} version The version of the UUID
      * @returns {string} The generated UUID
-     */ 
-    static generate() {
-        return uuid.v5('nasriya.net', uuid.v4())
-    }    
+     */
+    export function generate(version: 'v5' | 'v4' = 'v5'): string {
+        if (version === 'v5') {
+            return _uuid.v5('nasriya.net', _uuid.v4())
+        } else if (version === 'v4') {
+            return _uuid.v4();
+        } else {
+            throw new Error(`The provided UUID version (${version}) is not supported.`)
+        }
+    }
 }
 
-export default UUID;
+export default uuid;
