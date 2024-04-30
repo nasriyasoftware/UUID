@@ -1,7 +1,7 @@
 import _uuid from 'uuid';
 
 /**A module to generate UUIDs */
-export module uuid {
+module uuid {
     /**
      * Generate a `v5` UUID.
      * @param {string} version The version of the UUID. Default: `v5`.
@@ -17,3 +17,5 @@ export module uuid {
         }
     }
 }
+
+export default uuid;

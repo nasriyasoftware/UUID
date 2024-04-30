@@ -12,8 +12,10 @@
   },
   "author": "Nasriya Software, LLC.",
   "license": "ISC",
-  "types": "./uuid.d.ts",
   "dependencies": {
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.8"
   }
 }
