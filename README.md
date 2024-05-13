@@ -11,20 +11,12 @@ Generating UUID is never easier.
 
 ### Installation
 ```shell
-npm i nasriyasoftware/nasriya/uuidx
+npm i nasriyasoftware/uuidx
 ```
 
 ### Importing
-You can use **ES6** or **CommonJS** to generate IDs.
-
-Import with **ES6**:
 ```ts
 import uuidx from 'nasriya-uuidx';
-```
-
-Import with **CommonJS**:
-```js
-const uuidx = require('nasriya-uuidx');
 ```
 
 ### Usage
