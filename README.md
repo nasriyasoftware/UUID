@@ -15,10 +15,14 @@ npm i nasriyasoftware/uuidx
 ```
 
 ### Importing
+Import in **ES6** modules 
 ```ts
 import uuidx from 'nasriya-uuidx';
 ```
-
+Import in **CommonJS (CJS)**
+```js
+const uuidx = require('nasriya-uuidx').default;
+```
 ### Usage
 
 To generate a UUIDs, call the method of the needed version whenever you need it:
