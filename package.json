@@ -11,7 +11,8 @@
   "exports": {
     ".": {
       "import": "./dist/esm/uuidX.js",
-      "require": "./dist/cjs/uuidX.js"
+      "require": "./dist/cjs/uuidX.js",
+      "types": "./dist/@types/uuidX.d.ts"
     }
   },
   "scripts": {
