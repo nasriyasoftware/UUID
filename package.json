@@ -29,6 +29,7 @@
   "license": "Nasriya Software License",
   "devDependencies": {
     "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
     "nasriya-copyfiles": "github:nasriyasoftware/CopyFiles",
     "nasriya-modularizejs": "github:nasriyasoftware/ModularizeJS"
   }
