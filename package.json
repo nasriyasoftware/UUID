@@ -1,5 +1,5 @@
 {
-  "name": "nasriya-uuidx",
+  "name": "uuidx",
   "version": "1.0.0",
   "description": "A lightweight package to generate UUIDs on the go.",
   "main": "dist/cjs/uuidX.js",
@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "build": "npm run build:esm && npm run build:cjs",
+    "build": "npm run build:esm && npm run build:cjs && mod-js && ns-copySrc",
     "build:esm": "tsc --project tsconfig.esm.json",
     "build:cjs": "tsc --project tsconfig.cjs.json",
     "test": "jest"
@@ -26,8 +26,10 @@
     "url": "https://github.com/nasriyasoftware/UUIDX"
   },
   "author": "Nasriya Software, LLC.",
-  "license": "ISC",
+  "license": "Nasriya Software License",
   "devDependencies": {
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "nasriya-copyfiles": "github:nasriyasoftware/CopyFiles",
+    "nasriya-modularizejs": "github:nasriyasoftware/ModularizeJS"
   }
 }
