@@ -1,5 +1,5 @@
 {
-  "name": "uuidx",
+  "name": "@nasriya/uuidx",
   "version": "1.0.0",
   "description": "A lightweight package to generate UUIDs on the go.",
   "main": "dist/cjs/uuidX.cjs",
@@ -15,18 +15,35 @@
       "types": "./dist/@types/uuidX.d.ts"
     }
   },
+  "publishConfig": {
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasriyasoftware/UUIDX"
+  },
+  "keywords": [
+    "uuid-generator",
+    "uuid4",
+    "uuid-v4",
+    "uuidv5",
+    "uuid-v5"
+  ],
+  "maintainers": [
+    {
+      "name": "Ahmad Nasriya",
+      "email": "ahmad@nasriya.net",
+      "url": "https://www.linkedin.com/in/ahmadnasriya/"
+    }
+  ],
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs && mod-js && ns-copySrc",
     "build:esm": "tsc --project tsconfig.esm.json",
     "build:cjs": "tsc --project tsconfig.cjs.json",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nasriyasoftware/UUIDX"
-  },
   "author": "Nasriya Software, LLC.",
-  "license": "Nasriya Software License",
+  "license": "Nasriya License",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/ms": "^0.7.34",

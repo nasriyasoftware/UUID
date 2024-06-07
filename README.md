@@ -11,17 +11,17 @@ Generating UUID is never easier.
 
 ### Installation
 ```shell
-npm i nasriyasoftware/uuidx
+npm i @nasriya/uuidx
 ```
 
 ### Importing
 Import in **ES6** modules 
 ```ts
-import uuidx from 'nasriya-uuidx';
+import uuidx from '@nasriya/uuidx';
 ```
 Import in **CommonJS (CJS)**
 ```js
-const uuidx = require('nasriya-uuidx').default;
+const uuidx = require('@nasriya/uuidx').default;
 ```
 ### Usage
 
