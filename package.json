@@ -2,16 +2,16 @@
   "name": "@nasriya/uuidx",
   "version": "1.0.1",
   "description": "A lightweight package to generate UUIDs on the go.",
-  "main": "dist/cjs/uuidX.cjs",
-  "module": "dist/esm/uuidX.mjs",
+  "main": "dist/cjs/uuidX.js",
+  "module": "dist/esm/uuidX.js",
   "types": "dist/@types/uuidX.d.ts",
   "files": [
     "dist/**/*"
   ],
   "exports": {
     ".": {
-      "import": "./dist/esm/uuidX.cjs",
-      "require": "./dist/cjs/uuidX.mjs",
+      "import": "./dist/esm/uuidX.js",
+      "require": "./dist/cjs/uuidX.js",
       "types": "./dist/@types/uuidX.d.ts"
     }
   },
