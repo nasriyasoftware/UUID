@@ -1,4 +1,4 @@
-import uuidX from '../uuidX';
+import uuidX from '../src/uuidX';
 
 describe('Testing UUID', () => {
     const v4 = uuidX.v4();
